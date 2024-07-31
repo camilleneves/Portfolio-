@@ -334,3 +334,122 @@ header {
    
 
 }
+
+#contato {
+    height: 515px;
+    background-color: var(--lilas);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-contatos {
+
+    width: 1000px;
+    height: 400px;
+    background-color: var(--lilas);
+
+    border: 3px solid var(--roxo);
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    margin-left: 100px;
+
+}
+
+.card-contatos p {
+    color: #0f0f0f;
+
+    font-family: "Staatliches";
+    font-size: 30px;
+
+    text-align: left;
+    margin-top: 110px;
+    margin-left: 70px;
+
+    padding: 7%;
+}
+
+.card-contatos h1 {
+    color: #0f0f0f;
+
+
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: lighter;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 350px;
+    margin-right: 50px;
+    margin-top: -230px;
+
+    line-height: 1.6;
+    /* Ajusta o espaçamento entre linhas */
+
+}
+.card-contatos h2 {
+    color: #0f0f0f;
+
+
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: lighter;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 350px;
+    margin-right: 50px;
+    /* margin-top: -200px; */
+
+    line-height: 1.6;
+    /* Ajusta o espaçamento entre linhas */
+
+}
+
+.card-contatos h3 {
+    color: #0f0f0f;
+
+
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: lighter;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 350px;
+    margin-right: 50px;
+    /* margin-top: -230px; */
+
+    line-height: 1.6;
+    /* Ajusta o espaçamento entre linhas */
+
+}
+
+.card-contatos h4 {
+    color: #0f0f0f;
+
+
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: lighter;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 350px;
+    margin-right: 50px;
+    /* margin-top: -230px; */
+
+    line-height: 1.6;
+    /* Ajusta o espaçamento entre linhas */
+
+}
