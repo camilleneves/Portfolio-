@@ -1,0 +1,336 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url(font/Quicksand-VariableFont_wght.ttf);
+    font-family: "Staatliches";
+    src: url(font/Staatliches-Regular.ttf);
+}
+
+:root {
+    --lilas: #E4C4FF;
+    --roxo: #521587;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #E4C4FF;
+
+}
+
+header {
+    height: 100px;
+    background-color: var(--lilas);
+    margin-bottom: -20px;
+}
+
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu a {
+    display: block;
+    text-align: center;
+    padding: 19px 19px;
+
+    font-size: 18px;
+    font-family: "Quicksand";
+    color: #0f0f0f;
+    text-decoration: underline transparent;
+    transition: all 1s ease;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.menu a:hover {
+    color:#521587;
+    text-decoration: underline var(--roxo);
+    transition: opacity 1s ease;
+
+}
+
+.conteudo-banner {
+    background-color: var(--lilas);
+    height: 620px;
+
+}
+
+.conteudo-banner p {
+    font-size: 20px;
+    font-family: "Quicksand";
+    font-weight: bold;
+    text-align: right;
+
+}
+
+
+.conteudo-banner img {
+    width: 570px;
+    margin-top: 120px;
+}
+
+.conteudo-banner h2 {
+    font-size: 20px;
+    font-family: "Quicksand";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+#sobre {
+    height: 600px;
+    background-color: var(--lilas);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-sobre {
+    
+    width: 1000px;
+    height: 400px;
+    background-color: var(--lilas);
+
+    border: 3px solid var(--roxo);
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    margin-left: 100px;
+}
+
+
+.card-sobre p {
+    color: #0f0f0f;
+
+    font-family: "Staatliches";
+    font-size: 30px;
+
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 70px;
+
+    padding: 7%;
+}
+
+.card-sobre img {
+    height: 176px;
+    width: 169px;
+    margin-left: 100px;
+    margin-top: -50px;
+
+    border-radius: 20px
+}
+
+.card-sobre h2 {
+    color: #0f0f0f;
+
+
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: lighter;
+
+    display: flex;
+    justify-content: right;
+    text-align: center;
+
+    margin-left: 350px;
+    margin-right: 50px;
+    margin-top: -260px;
+
+    line-height: 1.6;
+    /* Ajusta o espaçamento entre linhas */
+
+}
+
+#formacao {
+    height: 515px;
+    background-color: var(--lilas);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-formacao {
+
+    width: 1000px;
+    height: 400px;
+    background-color: var(--lilas);
+
+    border: 3px solid var(--roxo);
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    margin-left: 100px;
+
+}
+
+.card-formacao p {
+    color: #0f0f0f;
+
+    font-family: "Staatliches";
+    font-size: 30px;
+
+    text-align: left;
+    margin-top: 110px;
+    margin-left: 70px;
+
+    padding: 7%;
+}
+
+.card-formacao h2 {
+    color: #0f0f0f;
+
+
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: lighter;
+
+    display: flex;
+    justify-content: right;
+    text-align: center;
+
+    margin-left: 350px;
+    margin-right: 50px;
+    margin-top: -230px;
+
+    line-height: 1.6;
+    /* Ajusta o espaçamento entre linhas */
+
+}
+
+#competencias {
+    height: 550px;
+    background-color: var(--lilas);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-competencias {
+
+    width: 1000px;
+    height: 400px;
+    background-color: var(--lilas);
+
+    border: 3px solid var(--roxo);
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    margin-left: 100px;
+
+}
+
+.card-competencias p {
+    color: #0f0f0f;
+
+    font-family: "Staatliches";
+    font-size: 30px;
+
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 100px;
+
+    padding: 7%;
+}
+
+.card-competencias img {
+    height: 201px;
+    width: 339px;
+    margin-left: 500px;
+    margin-top: -230px; 
+    border-radius: 20px;
+}
+
+#projetos {
+    height: 550px;
+    background-color: var(--lilas);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-projetos {
+
+    width: 1000px;
+    height: 400px;
+    background-color: var(--lilas);
+
+    border: 3px solid var(--roxo);
+    border-radius: 60px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    margin-left: 100px;
+
+}
+
+.card-projetos p {
+    color: #0f0f0f;
+
+    font-family: "Staatliches";
+    font-size: 30px;
+
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 100px;
+
+    padding: 7%;
+}
+
+.card-projetos h2 {
+    color: #0f0f0f;
+    text-decoration: underline transparent;
+
+
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: lighter;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 550px;
+    margin-right: 180px;
+    margin-top: -90px; 
+
+    line-height: 1.6;
+   
+}
+
+.card-projetos h2 :hover{
+    color: #0f0f0f;
+    border: #521587;
+
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: lighter;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-left: 550px;
+    margin-right: 180px;
+    margin-top: -90px; 
+
+    line-height: 1.6;
+   
+
+}
